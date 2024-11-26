@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 
 //@desc        Check exists organization
 //@route       GET /api/v1/organization/existsOrganization/:id
-//@access      Private
+//@access      Public
 
 exports.existsOrganization = asyncHandler(async (req, res) => {
   
